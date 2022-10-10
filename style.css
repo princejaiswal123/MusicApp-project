@@ -1,0 +1,162 @@
+.sidebar {
+  height: 640px;
+  width: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 40px;
+  background-color: grey;
+  }
+  
+  .sidebar div {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  }
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+    background-color: orange;
+  }
+  .mydiv{
+    text-align: center;
+    font-size: xx-large;
+    font-family: serif;
+    text-shadow: 3px 4px violet
+  }
+  .ravan{
+   text-align: center;
+  }
+  body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex: 1 0 auto;
+    background-color: rgb(15, 100, 19);
+  }
+  
+  
+section.white {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  
+  section.white .class {
+    flex: 0 0 280px;
+    display: flex;
+    background-color: #1eb31e49;
+    padding: 4rem;
+    height: 100px;
+  }
+  
+  .class .nitin {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding-left: 5rem;
+    color: rgb(17, 2, 2);
+    font-size: larger;
+    text-shadow: 2px 2px violet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  
+    .oy{
+      color: black;
+      font-size: larger;
+    }
+  
+  section.white .ravan {
+    list-style-type: none;
+    flex: 1 0 auto;
+    padding: 2rem 3rem 0;
+    font-size: larger;
+    color: yellow
+  }
+  
+  section.white .ravan li {
+    display: flex;
+    padding: 0 3rem;
+    min-height: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  section.white .ravan li:nth-child(2n) {
+    background-color: green;
+  }
+  
+  
+  footer {
+    display: flex;
+    flex: 0 0 110px;
+    background-color: rgba(16, 29, 49, 0.9);
+    color: violet;
+    padding: 1rem;
+    font-size: larger;
+    text-align: center;
+    text-shadow: 2px 2px #8a2d2d
+  }
+  #yo{
+   display: flex;
+    padding: 0px;
+    border: 8px solid green;
+    margin-top: 130px;
+
+  }
+.Game{
+    padding-right: 100px;
+}
+    
+  
+#fd{
+    text-shadow: 200px;
+    color: aqua;
+    font-size: larger;
+    
+  }
+   side menu 
+  
+.main{
+    display: flex;
+}
+.sidebar{
+    width: 50px;
+    height: 900px;
+    border: 2px solid black;
+flex-direction: column;
+}
+#customer{
+    height: 500px;
+    width: 500px;
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+#to{
+    display: flex;
+}
+  
+  
+       
